@@ -1,0 +1,18 @@
+{
+    "header": {
+        "about-me": "About me",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact",
+        "resume": "Resume"
+    },
+    "home": {
+        "hello": "Hello!",
+        "im": "I'm Maicol",
+        "text": "I am junior developer web, I am from Colombia, I am 23 years old and I work as a Frontend and Backend developer. I really like to design and layout before moving on to code but the truth is i enjoy every part of the process.",
+        "web-developer": "Web Developer",
+        "web-designer" : "Web Designer"
+
+    }
+
+}

@@ -1,0 +1,34 @@
+.slider-container {
+    width: 90%;
+    margin: 0 auto;
+ 
+}
+
+.slider-container h3 {
+    font-size: 40px;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+
+.slick-prev:before, .slick-next:before {
+   color: black;
+}
+
+.skill-container {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.skill-container hr {
+    width: 100%;
+    border: 1px dashed;
+   
+}
+
+@media only screen and (min-width: 768px) {
+    .slider-container h3 {
+        font-size: 60px;
+    }
+}
