@@ -11,6 +11,7 @@ const HeaderNav = () => {
   const handleMenu = () => {
     if(mostrar) {
  mostrar.classList.toggle('show-menu');
+ console.log('menu-activado')
     }
    
   }

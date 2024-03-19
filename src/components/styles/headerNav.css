@@ -20,14 +20,15 @@
     left: -100%;
     background-color: #31304d ;
     width: 100%;
-
     height: calc(100vh - 64px);
     padding: 30px 40px;
     transition: left .5s;
     z-index: 3;
 }
 
-
+.show-menu {
+    left: 0;
+}
 .navbar {
     height: inherit;
     display: flex;
@@ -55,6 +56,10 @@ h2 span {
 
 .menu-list {
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50vh;
+    background-color: red;
     list-style: none;
     margin: 0;
     padding: 0;
