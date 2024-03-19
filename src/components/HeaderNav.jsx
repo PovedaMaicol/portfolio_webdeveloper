@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/headerNav.css';
 import { useTranslation } from "react-i18next";
-const mostrar = document.querySelector('.menu')
+
 const body = document.querySelector('body')
 
 
@@ -9,6 +9,7 @@ const body = document.querySelector('body')
 const HeaderNav = () => {
 
   const handleMenu = () => {
+    const mostrar = document.querySelector('.menu');
     if(mostrar) {
  mostrar.classList.toggle('show-menu');
  console.log('menu-activado')
@@ -34,7 +35,7 @@ const HeaderNav = () => {
         </ul>
         </div>
         
-        <button className='btn-open' type='button' aria-label='abrir menu' onClick={handleMenu}>
+        <button id='btnOpen' className='btn-open' type='button' aria-label='abrir menu' onClick={handleMenu}>
         <i className='bx bx-menu nav-icon'></i>
         </button>
 
