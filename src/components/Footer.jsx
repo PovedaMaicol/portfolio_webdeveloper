@@ -1,7 +1,9 @@
-import React from 'react'
-import './styles/footer.css'
+import React from 'react';
+import './styles/footer.css';
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const [t, i18n] = useTranslation("global");
   return (
   <div className='footer_cont container'>
 
@@ -9,20 +11,20 @@ const Footer = () => {
     <div className='info_container'>
  <section className='form'>      
 <div className="content-form">
-<h3 className="txt-descriptivo">Contact Me</h3>
-<p className="contacts-txt">If you want to contact me,<br/>leave me a message!</p>
-<input className="contacts-register" type="text" id="name" name="name" placeholder="Name"></input>
-<input className="contacts-register" type="email" id="email" name="email" placeholder="email"></input>
+<h3 className="txt-descriptivo">{t("footer.contactme")}</h3>
+<p className="contacts-txt">{t("footer.t")}</p>
+<input className="contacts-register" type="text" id="name" name="name" placeholder={t("footer.name")}></input>
+<input className="contacts-register" type="email" id="email" name="email" placeholder={t("footer.email")}></input>
 <textarea className="contacts-register" type="messaje" id="messaje" name="messaje" rows="4"
-placeholder="Messaje"></textarea>
-<input className="button-send" type="submit" value="Send"></input>
+placeholder={t("footer.message")}></textarea>
+<input className="button-send" type="submit" value={t("footer.send")}></input>
 </div>
 </section> 
 <br/>
 
 
 
-<div className='info_container_2'>
+<div id='contact' className='info_container_2'>
 
 <ul className='info_contact'>
 <li className="contacts-list"><i className='bx bx-mobile-alt'></i>

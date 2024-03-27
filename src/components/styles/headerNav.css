@@ -60,7 +60,9 @@ h2 span {
     display: flex;
     flex-direction: column;
  
-    justify-content: space-around;
+   width: 100%;
+
+   
    
  
     list-style: none;
@@ -69,6 +71,38 @@ h2 span {
     column-gap: 20px;
     font-size: 14px;
 }
+
+.menu-item {
+
+    height: 7vh;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.menu-item a {
+    text-decoration: none;
+    color: inherit;
+}
+.menu-item a:hover {
+padding-left: 1em;
+padding-right: 1em;
+border-radius: 10%;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+.menu-list button {
+    width: 50%;
+    margin-top: 2vh;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.line2 {
+   display: none;
+}
+
 
 
 
@@ -99,6 +133,7 @@ h2 span {
         width: 100%;
         justify-content: space-between;
         flex-direction: row;
+        align-items: center;
        
     }
 
@@ -143,5 +178,25 @@ h2 span {
         font-size: 30px;
         color: #b6bbc4;
     }
+
+    .menu-list button {
+        margin:0;
+        width: auto;
+        height: vh;
+        padding-left: 2px;
+        padding-right: 2px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .line2 {
+        display: flex;
+    }
+
+    
+
+   
+
+ 
 }
   

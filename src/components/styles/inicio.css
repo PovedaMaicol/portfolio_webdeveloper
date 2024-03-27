@@ -108,13 +108,20 @@ width: 100%;
 
 }
 
-.change-mode-container div {
+.translate-container {
+    width: 30px;
+    padding: 0;
+    margin: 0;
     display: flex;
-    border: 1px solid gray;
-border-radius: 2px;
-text-align: center;
-display: flex;
-justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    border: 1px solid;
+}
+.translate-container span {
+    font-size: xx-small;
+  
+
 }
 
 .change-mode-container div hr {
@@ -129,10 +136,14 @@ justify-content: center;
     text-align: center;
     display: flex;
     cursor: pointer;
-    padding: 2px;
+    color: inherit;
+
     font-size: x-small;
  }
- 
+ .btn-mode:hover {
+    background-color: #31304d4c;
+
+ }
  .btn-mode2 {
   
     
@@ -150,6 +161,13 @@ border: none;
 
  
  }
+
+ .translate-container hr {
+    color: white;
+    border: 2px solid white;
+    height: 100%;
+}
+
 
  @media only screen and (min-width: 768px) {
 

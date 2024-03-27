@@ -110,7 +110,7 @@ margin: 0 auto;
     list-style: none;
 }
 .footer-item a {
-    color: black;
+    color: inherit;
 }
 .contacts-list {
     display: flex;

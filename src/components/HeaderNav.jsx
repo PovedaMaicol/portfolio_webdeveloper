@@ -27,11 +27,11 @@ const HeaderNav = () => {
         
         <div className='menu'>
         <ul className='menu-list'>
-            <li className='menu-item'>01. <span>{t("header.about-me")}</span></li>
-            <li className='menu-item'>02. <span>{t("header.skills")}</span></li>
-            <li className='menu-item'>03. <span>{t("header.projects")}</span></li>
-            <li className='menu-item'>04. <span>{t("header.contact")}</span></li>
-            <button>{t("header.resume")}</button>
+            <li className='menu-item'><a href='#inicio'>{t("header.about-me")}</a></li><span className='line2'>/</span>
+            <li className='menu-item'><a href='#skills'>{t("header.skills")}</a></li><span className='line2'>/</span>
+            <li className='menu-item'><a href='#proyects'>{t("header.projects")}</a></li><span className='line2'>/</span>
+            <li className='menu-item'><a href='#contact'>{t("header.contact")}</a></li>
+
         </ul>
         </div>
         

@@ -5,7 +5,7 @@ import Typed from 'typed.js';
 import { useTranslation } from "react-i18next";
 
 const body = document.querySelector('body');
-
+const modo = document.querySelector('.btn-mode2 i');
 
 
 
@@ -28,11 +28,14 @@ const Inicio = () => {
 
     const [t, i18n] = useTranslation("global");
 
+
     const handleDark = () => {
       if(body){
         body.classList.toggle('dark')
-      
+        modo.classList.toggle('bxs-sun')
+       
       }
+    
      
     }
   
@@ -52,16 +55,16 @@ const Inicio = () => {
 
 
   return (
-    <div className='home-container container'>
+    <div id="inicio" className='home-container container'>
       
 
 <nav className='change-mode-container'>
 
 <button className='btn-mode2' onClick={handleDark}><i className="bx bxs-moon"></i></button>
 
-<div >
+<div className='translate-container'>
 <button className='btn-mode' onClick={handleLanguaje}>ES</button>
-<hr/>
+<span>|</span>
 <button className='btn-mode' onClick={handleLanguajeEn}>EN</button>
 </div>
 

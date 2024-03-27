@@ -13,6 +13,34 @@
         "web-developer": "Web Developer",
         "web-designer" : "Web Designer"
 
+    },
+    "projects": {
+        "web-design": "Web Design / Front-end Developer / Back-end Developer",
+        "code": "Code",
+        "project": "Project",
+        "description1": "A website where Pokémon fans can find information about their favorite characters.",
+        "description2": "You can investigate the characters that reside in various galaxies and know their vital status.",
+        "description3": "Simulation of a virtual appliance store with the ability to filter by search."
+    },
+    "habilities": {
+        "title": "Skills are important, but not all of them have to be technical",
+        "p": "In my career as a web developer, I not only stand out for my solid technical skills, but also for my soft skills that enrich my contribution to the team. My ability to communicate effectively facilitates understanding of client needs, while my collaborative approach ensures seamless integration with teammates.",
+        "problem-res": "Problem resolution",
+        "teamwork": "Teamwork",
+        "creativity": "Creativity",
+        "empathy": "Empathy"
+    },
+    "footer": {
+        "contactme": "Contact me",
+        "t": "If you want to contact me, leave me a message!",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send"
+
+
+        
+     
     }
 
 }

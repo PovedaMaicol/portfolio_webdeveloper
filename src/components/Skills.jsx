@@ -16,39 +16,39 @@ const Skills = () => {
           speed: 500
         };
   return (
-    <div className="skill-container container">
+    <div id="skills" className="skill-container container">
     <hr/>
    <div className="slider-container">
       <Slider {...settings}>
         <div>
-          <h3><i className='bx bxl-netlify'></i></h3>
+          <h3><i className='bx bxl-netlify'></i><span>Netlify</span></h3>
         </div>
         <div>
-          <h3><i className='bx bxl-react' ></i></h3>
+          <h3><i className='bx bxl-react' ></i><span>React</span></h3>
         </div>
         <div>
-          <h3><i className='bx bxl-javascript' ></i></h3>
+          <h3><i className='bx bxl-javascript'></i><span>JavaScript</span></h3>
         </div>
         <div>
-          <h3><i className='bx bxl-html5' ></i></h3>
+          <h3><i className='bx bxl-html5'></i><span>HTML5</span></h3>
         </div>
         <div>
-          <h3><i className='bx bxl-css3' ></i></h3>
+          <h3><i className='bx bxl-css3'></i><span>CSS</span></h3>
         </div>
         <div>
-          <h3><i className='bx bxl-git' ></i></h3>
+          <h3><i className='bx bxl-git'></i><span>Git</span></h3>
         </div>
         <div>
-          <h3><i className='bx bxl-figma'></i></h3>
+          <h3><i className='bx bxl-figma'></i><span>Figma</span></h3>
         </div>
         <div>
-          <h3><i className='bx bxl-codepen' ></i></h3>
+          <h3><i className='bx bxl-codepen'></i><span>Codepen</span></h3>
         </div>
         <div>
-          <h3><i className='bx bxl-bootstrap' ></i></h3>
+          <h3><i className='bx bxl-bootstrap' ></i><span>Bootstrap</span></h3>
         </div>
         <div>
-          <h3><i className='bx bxl-jquery' ></i></h3>
+          <h3><i className='bx bxl-jquery' ></i><span>Jquery</span></h3>
 
         </div>
 

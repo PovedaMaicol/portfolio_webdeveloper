@@ -9,9 +9,33 @@
     "home": {
         "hello": "Hola!",
         "im": "Soy Maicol",
-        "text": "Soy desarrollador web junior, soy de Colombia, tengo 23 años y trabajo como desarrollador Frontend y Backend. Me gusta mucho diseñar y maquetar antes de pasar al código, pero la verdad es que disfruto cada parte del proceso.",
-        "web-developer": "Desarollador Web",
+        "text": "Soy desarrollador web junior, soy de Colombia, tengo 23 años y trabajo como desarrollador Front-end y Back-end. Me gusta mucho diseñar y maquetar antes de pasar al código, pero la verdad es que disfruto cada parte del proceso.",
+        "web-developer": "Desarrollador Web",
         "web-designer" : "Diseñador Web"
-
+    },
+    "projects": {
+        "web-design": "Diseñador web / Desarrollador Front-end / Desarrollador Back-end",
+        "code": "Codigo",
+        "project": "Proyecto",
+        "description1":"Un sitio web donde los aficionados de Pokémon pueden encontrar información sobre sus personajes favoritos.",
+        "description2": "Puedes investigar los personajes que residen en diversas galaxias y conocer su estado vital.",
+        "description3": "Simulación de una tienda virtual de electrodomésticos con capacidad para filtrar mediante búsqueda."
+    },
+    "habilities": {
+        "title": "Las habilidades son importantes, pero no todas tienen que ser técnicas",
+        "p": "En mi carrera como desarrollador web no solo destaco por mis sólidas habilidades técnicas, sino también por mis habilidades blandas que enriquecen mi aporte al equipo. Mi capacidad para comunicarme de manera efectiva facilita la comprensión de las necesidades del cliente, mientras que mi enfoque colaborativo garantiza una integración perfecta con los compañeros de equipo.",
+        "problem-res": "Resolucion de problemas",
+        "teamwork": "Trabajo en equipo",
+        "creativity": "Creatividad",
+        "empathy": "Empatía"
+    },
+    "footer": {
+        "contactme": "Contáctame",
+        "t": "Si quieres contactarme, dejame un mensaje!",
+        "name": "Nombre",
+        "email": "Correo electronico",
+        "message": "Mensaje",
+        "send": "Enviar"
+       
     }
 }

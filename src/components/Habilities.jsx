@@ -1,29 +1,31 @@
 import React from 'react';
 import './styles/habilities.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { useTranslation } from "react-i18next";
 
 
 
 const Habilities = () => {
+    const [t, i18n] = useTranslation("global");
+
   return (
     <>
     <div className='habilities_container container'>
         <br/>
 
         <div className='habilities_txt'>
-        <h3>Skills are important, but not all of them have to be technical</h3>
+        <h3>{t("habilities.title")}</h3>
         <br/>
-        <p>In my career as a web developer, I not only stand out for my solid technical skills, but also for my soft skills that enrich my contribution to the team. My ability to communicate effectively facilitates understanding of client needs, while my collaborative approach ensures seamless integration with teammates.</p>
+        <p>{t("habilities.p")}</p>
         </div>
 
         <div className='habilities_cont_2'>
 
         <ul className='habilities_list'>
-            <li><i className="bx bx-cog"></i><h4>Problem resolution</h4></li>
-            <li><i className="bx bx-group"></i><h4>Teamwork</h4></li>
-            <li><i className="bx bx-landscape"></i><h4>Crativity</h4></li>
-            <li><i className="bx bx-donate-heart"></i><h4>Empathy</h4></li>
+            <li><i className="bx bx-cog"></i><h4>{t("habilities.problem-res")}</h4></li>
+            <li><i className="bx bx-group"></i><h4>{t("habilities.teamwork")}</h4></li>
+            <li><i className="bx bx-landscape"></i><h4>{t("habilities.creativity")}</h4></li>
+            <li><i className="bx bx-donate-heart"></i><h4>{t("habilities.empathy")}</h4></li>
         </ul>
 
 

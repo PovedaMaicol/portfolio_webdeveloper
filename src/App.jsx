@@ -5,7 +5,7 @@ import HeaderNav from './components/HeaderNav'
 import Inicio from './components/Inicio'
 import Portfolio from './components/Portfolio'
 import Skills from './components/Skills'
-
+import { useTranslation } from "react-i18next";
 function App() {
 
 
