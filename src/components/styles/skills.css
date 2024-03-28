@@ -18,8 +18,22 @@
     display: flex;
     flex-direction: column; 
  width: auto;
+ cursor: pointer;
      text-align: center;
 }
+.slider-container div h3:hover {
+   
+        color:  #12A0AE;;
+  
+}
+.slider-container div h3 i {
+    transform: scale(1);
+}
+.slider-container div h3 i:hover{
+    color: #12A0AE;
+    transform: scale(1.1);
+}
+
 
 .slider-container div h3 span {
    font-weight: 200;
@@ -31,7 +45,12 @@
 .slick-next::before, .slick-prev::before {
     color: inherit;
 }
-
+.slick-next:hover, .slick-prev:hover {
+    color:  #12A0AE;;
+}
+.slick-next:active, .slick-prev:active {
+    color:  #12A0AE;;
+}
 
 
 .skill-container {
@@ -55,6 +74,7 @@
     .slick-next::before {
       
     }
+ 
     .slider-container div h3 span {
 
    

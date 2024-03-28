@@ -55,6 +55,7 @@ const Inicio = () => {
 
 
   return (
+   
     <div id="inicio" className='home-container container'>
       
 
@@ -99,6 +100,7 @@ const Inicio = () => {
 </div>
        
     </div>
+
   )
 }
 

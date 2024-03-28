@@ -1,3 +1,4 @@
+
 .home-container {
  
     text-align: center;
@@ -13,16 +14,23 @@
     margin: 0 auto;
     padding: 0 20px;
     height: auto;
+   
 
 }
 
 .contenedor-title h1 {
     line-height: 1;
+    
+   
+
+}
+
+.contenedor-title h1:first-child {
+    color: #12A0AE;
 }
 .contenedor-title p {
     font-weight: 300;
 }
-
 
 
 .img-container {
@@ -66,6 +74,7 @@
    
     cursor: pointer;
     height: 4vh;
+    background-color: #12a1ae8d;
   
     align-items: center;
     border-radius: 1vh;
@@ -91,8 +100,7 @@
 }
 .contenedor-title h1 span {
 
-    font-weight: 400;
-  
+
 }
 
 .change-mode-container {
@@ -117,6 +125,7 @@ width: 100%;
     text-align: center;
     align-items: center;
     border: 1px solid;
+    background-color:  #12a1ae4b;
 }
 .translate-container span {
     font-size: xx-small;
@@ -139,9 +148,11 @@ width: 100%;
     color: inherit;
 
     font-size: x-small;
+    transform: scale(1);
  }
  .btn-mode:hover {
-    background-color: #31304d4c;
+    transform: scale(1.1);
+ background-color: #12A0AE;
 
  }
  .btn-mode2 {
