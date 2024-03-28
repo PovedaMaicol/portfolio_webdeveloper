@@ -13,7 +13,10 @@ const Skills = () => {
           infinite: true,
           centerPadding: "60px",
           slidesToShow: 3,
-          speed: 500
+          speed: 500,
+          autoplay: true,
+          autoplaySpeed: 3000,
+
         };
   return (
     <div id="skills" className="skill-container container">

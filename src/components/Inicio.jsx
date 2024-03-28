@@ -1,17 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './styles/inicio.css';
 import prof from '/public/img/ImagenEnPixel.jpeg'
 import Typed from 'typed.js';
 import { useTranslation } from "react-i18next";
 
+
 const body = document.querySelector('body');
-const modo = document.querySelector('.btn-mode2 i');
+// const modo = document.querySelector('btn-mode2 i');
 
 
 
 
 const Inicio = () => {
     const el = React.useRef(null);
+    const [isStarred, setIsStarred] = useState(false);
+    const handleIcon = () => {
+      setIsStarred(!isStarred)
+    };
    
   
     React.useEffect(() => {
@@ -29,15 +34,17 @@ const Inicio = () => {
     const [t, i18n] = useTranslation("global");
 
 
+    
+
     const handleDark = () => {
+     
       if(body){
-        body.classList.toggle('dark')
-        modo.classList.toggle('bxs-sun')
+        body.classList.toggle('dark')  
+      
        
       }
-    
-     
     }
+
   
     const handleLanguaje = () => {
       i18n.changeLanguage("es")
@@ -61,7 +68,7 @@ const Inicio = () => {
 
 <nav className='change-mode-container'>
 
-<button className='btn-mode2' onClick={handleDark}><i className="bx bxs-moon"></i></button>
+<button className='btn-mode2' onClick={handleDark}><i  onClick={handleIcon} className={isStarred ? "bx bxs-sun bx-border-circle" : "bx bxs-moon bx-border-circle"}></i></button>
 
 <div className='translate-container'>
 <button className='btn-mode' onClick={handleLanguaje}>ES</button>
