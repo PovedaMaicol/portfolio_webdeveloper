@@ -1,6 +1,10 @@
 import React from 'react';
 import './styles/headerNav.css';
 import { useTranslation } from "react-i18next";
+// import identificador from '../img/identificador_1.PNG';
+
+
+
 
 const body = document.querySelector('body')
 
@@ -23,7 +27,7 @@ const HeaderNav = () => {
   return (
     <header className='container'>
         <nav className='navbar'>
-        <h2>MS<span>.</span></h2>
+        <div><img src='/img/identifica.PNG' alt='100' height='35' width='auto'/><h3>Skybit</h3></div>
         
         <div className='menu'>
         <ul className='menu-list'>
