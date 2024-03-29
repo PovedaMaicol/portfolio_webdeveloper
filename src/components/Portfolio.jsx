@@ -31,10 +31,10 @@ project_description={t("projects.description2")}
 url='https://rickandmorty33.netlify.app'
 urg='https://github.com/PovedaMaicol/Rick-and-Morty---React'
 img_port='/img/rickmorty.png'
-li1='HTML'
-li2='CSS'
-li3='JavaScript'
-li4='React'
+li1='React'
+li2='useForm'
+li3='Axios'
+li4='CSS'
 />
 <br/>
 
