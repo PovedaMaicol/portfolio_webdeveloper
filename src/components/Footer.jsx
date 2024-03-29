@@ -44,14 +44,14 @@ placeholder={t("footer.message")}></textarea>
 
 
 <ul className="footer-contacts">
-                        <li className="footer-item"><a href="https://www.behance.net/maicolvillami"><i
+                        <li className="footer-item"><a href="https://wa.link/iesfcf" target='_blank'><i
                                     className='bx bxl-whatsapp'></i></a></li>
-                        <li className="footer-item"><a href="https://www.behance.net/maicolvillami"><i
+                        <li className="footer-item"><a href="https://www.behance.net/maicolvillami" target='blank'><i
                                     className='bx bxl-behance'></i></a></li>
-                        <li className="footer-item"><a href="https://github.com/PovedaMaicol"><i
+                        <li className="footer-item"><a href="https://github.com/PovedaMaicol" target='blank'><i
                                     className='bx bxl-github'></i></a></li>
                         <li className="footer-item"><a
-                                href="https://www.linkedin.com/in/maicol-salazar-7040b4299/"><i
+                                href="https://www.linkedin.com/in/maicol-salazar-7040b4299/" target='blank'><i
                                     className='bx bxl-linkedin-square'></i></a></li>
                     </ul>
 

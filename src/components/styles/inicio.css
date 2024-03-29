@@ -79,13 +79,19 @@ color: rgba(255, 255, 0, 0.9);
     font-size:smaller;
     display: flex;
     justify-content: center;
-   
+   text-decoration: none;
+color: inherit;
     cursor: pointer;
     height: 4vh;
     background-color: #12a1ae8d;
   
     align-items: center;
     border-radius: 1vh;
+transform: scale(1);
+}
+
+.enlaces a:hover {
+    transform: scale(1.1);
 
 }
 

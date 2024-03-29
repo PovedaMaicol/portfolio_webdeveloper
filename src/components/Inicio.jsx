@@ -103,7 +103,7 @@ const Inicio = () => {
 
 <div className='enlaces'>
 <a>{t("home.web-developer")}<i className='bx bx-download' ></i></a>
-<a>{t("home.web-designer")}<i className='bx bx-code' ></i></a>
+<a href='https://www.behance.net/maicolvillami' target='_blank'>{t("home.web-designer")}<i className='bx bx-code' ></i></a>
 </div>
        
     </div>
