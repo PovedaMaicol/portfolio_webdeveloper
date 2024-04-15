@@ -50,6 +50,27 @@ li3='JavaScript'
 li4='React'
 />
 
+<CardPortfolio
+project_name='Weather App'
+project_description={t("projects.description4")}
+url='https://courageous-horse-78e509.netlify.app/'
+urg='https://github.com/PovedaMaicol/Weather-App'
+img_port='/img/weatherApp.png'
+li1='Axios'
+li2='useState'
+li3='useEffect'
+li4='React'
+/>
+
+<CardPortfolio 
+project_name='Users Registration'
+project_description={t("projects.description5")}
+url='https://leafy-alpaca-3ed326.netlify.app/'
+urg='https://github.com/PovedaMaicol/Users-React'
+img_port='/img/crudUsers.png'
+li1='HTTP'
+/>
+
 
 </div>
      

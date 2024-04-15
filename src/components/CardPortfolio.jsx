@@ -30,13 +30,12 @@ const CardPortfolio = ({img_port,li1, li2, li3, li4, url, urg, project_name, pro
      </div>
     </div>
    
-    
+    <br/>
     <ul className='buttons-card'>
-        <li><i className='bx bx-radio-circle-marked green' onClick={redirectExternalUrl}></i><h4>{li1}</h4></li>
-        <li><i className='bx bx-radio-circle-marked red' ></i><h4>{li2}</h4></li>
-        <li><i className='bx bx-radio-circle-marked orange' ></i><h4>{li3}</h4></li>
-        <li><i className='bx bx-radio-circle-marked blue' ></i><h4>{li4}</h4></li>
-
+        <li><h4>{li1}</h4></li>
+        <li><h4>{li2}</h4></li>
+        <li><h4>{li3}</h4></li>
+        <li><h4>{li4}</h4></li>
     </ul>
 </figure>
 
