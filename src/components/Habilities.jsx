@@ -17,6 +17,7 @@ const Habilities = () => {
         <h3>{t("habilities.title")}</h3>
         <br/>
         <p>{t("habilities.p")}</p>
+        <br/>
         </div>
 
         <div className='habilities_cont_2'>

@@ -28,6 +28,7 @@ img {
     .portfolio-grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 0.8em;
         column-gap: 1.5em;
     }
     .portfolio-grid br {

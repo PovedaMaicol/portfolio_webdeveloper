@@ -1,28 +1,29 @@
 .buttons-card {
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
     cursor: pointer;
-    width: 100%;
+    width: 80%;
     height: 35px;
+ 
     
  
  
 }
 
 .buttons-card li {
-    border: 1px;
+    border: 1px solid gray;
     border-radius: 4px;
+    display: flex;
 
-    background-color: #12a1ae4e;
+    /* background-color: #12a1ae4e; */
     height: 15px;
  align-items: center;
  margin: 0;
- padding: 1px;
- 
+
  
 
 
@@ -32,12 +33,13 @@
  
 
     font-size: x-small;
-    font-weight: 500;
+    font-weight: 450px;
    
     padding: 2px;
+    margin: 0;
     
    
-    display: flex;
+  
 
 }
 .portfolio-proyect {

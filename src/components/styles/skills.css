@@ -29,18 +29,11 @@ width: 50px;
  cursor: pointer;
      text-align: center;
 }
-.slider-container div h3:hover {
-   
-        color:  #12A0AE;;
-  
-}
+
 .slider-container div h3 i {
     transform: scale(1);
 }
-.slider-container div h3 i:hover{
-    color: #12A0AE;
-    transform: scale(1.1);
-}
+
 
 
 .slider-container div h3 span {

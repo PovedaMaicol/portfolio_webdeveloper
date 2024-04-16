@@ -18,6 +18,8 @@ function App() {
     <Skills/>
     <br/>
      <Portfolio/>
+     <br/>
+     <br/>
      <Habilities/>
      <br/>
      <br/>

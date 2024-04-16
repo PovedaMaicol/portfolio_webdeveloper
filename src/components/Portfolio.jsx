@@ -19,8 +19,8 @@ project_description={t("projects.description1")}
 url='https://pokeeddex.netlify.app/'
 urg='https://github.com/PovedaMaicol/pokedex'
 img_port='/img/pokeapi.png'
-li1='HTML'
-li2='CSS'
+li1='HashRouter'
+li2='Axios'
 li3='JavaScript'
 li4='React'
 />
@@ -31,8 +31,8 @@ project_description={t("projects.description2")}
 url='https://rickandmorty33.netlify.app'
 urg='https://github.com/PovedaMaicol/Rick-and-Morty---React'
 img_port='/img/rickmorty.png'
-li1='React'
-li2='useForm'
+li1='Hooks'
+li2='Async/await'
 li3='Axios'
 li4='CSS'
 />
@@ -44,10 +44,10 @@ project_description={t("projects.description3")}
 url='https://tourmaline-fudge-f10320.netlify.app'
 urg='https://github.com/PovedaMaicol/e-comerce'
 img_port='/img/ecomerce.png'
-li1='HTML'
-li2='CSS'
+li1='Provider'
+li2='HashRouter'
 li3='JavaScript'
-li4='React'
+li4='Redux'
 />
 
 <CardPortfolio
@@ -68,7 +68,22 @@ project_description={t("projects.description5")}
 url='https://leafy-alpaca-3ed326.netlify.app/'
 urg='https://github.com/PovedaMaicol/Users-React'
 img_port='/img/crudUsers.png'
-li1='HTTP'
+li1='CRUD'
+li2='Express'
+li3='Node.js'
+li4='HTTP'
+/>
+
+<CardPortfolio
+project_name='Fortune cookie'
+project_description={t("projects.description6")}
+url='https://effulgent-babka-78800d.netlify.app/'
+urg='https://github.com/PovedaMaicol/React--Galleta-de-la-fortuna'
+img_port='/img/fortuneCookie.png'
+li1='useState'
+li2='HTML'
+li3='CSS'
+li4='REACT'
 />
 
 
