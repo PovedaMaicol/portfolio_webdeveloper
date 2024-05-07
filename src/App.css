@@ -13,10 +13,18 @@ html {
   font-family:"Prompt", sans-serif;
 }
 
-body.dark {
- background-color:  #161A30;
- color: white;
+body{
+  background-color: white;
 }
+.dark {
+  background-color:  rgb(19, 23, 44);
+  color: white;
+ }
+
+
+
+
+
 
 .container_principal {
 margin: 0 auto;

@@ -1,0 +1,33 @@
+.barra-lat {
+    position: relative;
+   
+    left:0;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.barra-lat li {
+    font-size: x-large;
+    
+}
+.barra-lat li a {
+    color: inherit;
+    
+}
+
+
+@media only screen and (min-width: 768px) {
+    .barra-lat{
+        height: 40vh;
+        justify-content: space-around;
+       
+    }
+    .barra-lat li {
+        font-size: xx-large;
+    }
+}

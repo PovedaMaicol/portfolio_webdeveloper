@@ -23,18 +23,25 @@ color: rgba(255, 255, 0, 0.9);
 
 .contenedor-title h1 {
     line-height: 1;
-    
+  
    
 
 }
 
-.contenedor-title h1:first-child {
-    color: #12A0AE;
+.txt-hello {
+    color: #49C293;
 }
 .contenedor-title p {
     font-weight: 300;
 }
 
+.cont-barra {
+    position:absolute;
+    right: 20px;
+    top: 130px;
+  
+    
+}
 
 .img-container {
     width: 50%;
@@ -83,7 +90,7 @@ color: rgba(255, 255, 0, 0.9);
 color: inherit;
     cursor: pointer;
     height: 4vh;
-    background-color: #12a1ae8d;
+    background-color:#49c29486;
   
     align-items: center;
     border-radius: 1vh;
@@ -131,15 +138,16 @@ width: 100%;
 }
 
 .translate-container {
-    width: 30px;
+    width: 50px;
+  
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
     align-items: center;
-    border: 1px solid gray;
-    background-color:  #12a1ae4b;
+    /* border: 1px solid gray; */
+    /* background-color:  #12a1ae4b; */
 }
 .translate-container span {
     font-size: xx-small;
@@ -156,18 +164,24 @@ width: 100%;
 .btn-mode {
     background: none;
     border: none;
-    text-align: center;
-    display: flex;
+
+  
     cursor: pointer;
     color: inherit;
-
+width: 45%;
     font-size: x-small;
     transform: scale(1);
  }
  .btn-mode:hover {
-    transform: scale(1.1);
- background-color: #12A0AE;
+    /* transform: scale(1.1);
+ background-color: #12A0AE; */
 
+ }
+ .btn-mode img {
+    transform: scale(1);
+ }
+ .btn-mode img:hover {
+transform: scale((1.1));
  }
  .btn-mode:active {
     transform: scale(1.1);
@@ -227,6 +241,7 @@ height: 300px;
 align-items: center;
 display: flex;
 justify-content: center;
+border-radius: 10px;
      
         margin-left: 5%;
         
@@ -234,9 +249,8 @@ justify-content: center;
 
     .img-container img {
         width: 100%;
-        border-radius: 50%;
-        background-color: #31304d;
-        padding: 1vh;
+        /* background-color: #31304d; */
+        padding: 1.5vh;
     }
 
 
@@ -261,6 +275,14 @@ justify-content: center;
 
     .enlaces a {
         height: inherit;
+    }
+
+    .cont-barra {
+      position: fixed;
+        right: 170px;
+        top: 130px;
+      
+        
     }
  }
 

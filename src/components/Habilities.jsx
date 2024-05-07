@@ -23,10 +23,29 @@ const Habilities = () => {
         <div className='habilities_cont_2'>
 
         <ul className='habilities_list'>
-            <li><i className="bx bx-cog"></i><h4>{t("habilities.problem-res")}</h4></li>
-            <li><i className="bx bx-group"></i><h4>{t("habilities.teamwork")}</h4></li>
-            <li><i className="bx bx-landscape"></i><h4>{t("habilities.creativity")}</h4></li>
-            <li><i className="bx bx-donate-heart"></i><h4>{t("habilities.empathy")}</h4></li>
+
+            <li>
+                <div className='front'><i className="bx bx-cog"></i><h4>{t("habilities.problem-res")}</h4></div>
+                <div className='back'><h4>Solving problems in software development ensures efficiency, quality and constant learning, benefiting customer satisfaction and professional reputation.</h4></div>
+            </li>
+
+            <li>
+                <div className='front'><i className="bx bx-group"></i><h4>{t("habilities.teamwork")}</h4></div>
+                <div className='back'><h4>Working as a team in web development is essential for effective collaboration, fluid communication and creation of quality products, promoting innovation and the achievement of common objectives.</h4></div>
+            </li>
+
+
+
+            <li>
+                <div className='front'><i className="bx bx-landscape"></i><h4>{t("habilities.creativity")}</h4></div>
+                <div className='back'><h4>B0</h4></div>
+            </li>
+
+            <li>
+                <div className='front'><i className="bx bx-donate-heart"></i><h4>{t("habilities.empathy")}</h4>
+                </div>
+                <div className='back'><h4>DO</h4></div>
+                </li>
         </ul>
 
 
