@@ -87,8 +87,9 @@ li4='REACT'
 />
 
 
+
 </div>
-     
+     <a>Ver mas</a>
     </div>
   )
 }

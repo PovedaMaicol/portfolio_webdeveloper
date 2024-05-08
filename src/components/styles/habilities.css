@@ -90,6 +90,12 @@ div .back{
     transform: perspective(500px) rotateY(360deg);
 
 }
+
+.back h4 {
+    text-align: center;
+    line-height: 1.5;
+    padding: 2px;
+}
 /* FIN CARD ROTATIVA */ 
 
 

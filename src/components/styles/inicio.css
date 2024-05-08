@@ -242,14 +242,16 @@ align-items: center;
 display: flex;
 justify-content: center;
 border-radius: 10px;
+padding-top: 6vh;
      
-        margin-left: 5%;
+        /* margin-left: 5%; */
         
     }
 
     .img-container img {
         width: 100%;
         /* background-color: #31304d; */
+   
         padding: 1.5vh;
     }
 
@@ -286,3 +288,13 @@ border-radius: 10px;
     }
  }
 
+ @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para tablet */
+    /* Puedes agregar aquí tus estilos específicos para tablets */
+    .cont-barra {
+        display: none;
+        position: absolute;
+        right: 0px;
+    }
+  }
+  

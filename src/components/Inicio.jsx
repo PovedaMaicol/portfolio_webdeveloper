@@ -26,7 +26,7 @@ const Inicio = () => {
       
     
       const typed = new Typed(el.current, {
-        strings: [`I'm Maicol`],
+        strings: [`I'm Maicol✌️`],
         typeSpeed: 180,
       });
       return () => {
