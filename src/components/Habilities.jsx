@@ -38,13 +38,13 @@ const Habilities = () => {
 
             <li>
                 <div className='front'><i className="bx bx-landscape"></i><h4>{t("habilities.creativity")}</h4></div>
-                <div className='back'><h4>Creativity in web development optimizes aesthetics, solves problems and enhances the user experience, generating distinctive and functional websites.</h4></div>
+                <div className='back'><h4>Optimizes aesthetics, solves problems and improves the user experience.</h4></div>
             </li>
 
             <li>
                 <div className='front'><i className="bx bx-donate-heart"></i><h4>{t("habilities.empathy")}</h4>
                 </div>
-                <div className='back'><h4>Empathy in web development allows us to understand user needs and design more satisfactory and accessible experiences.</h4></div>
+                <div className='back'><h4>understand user needs and design more satisfying and accessible experiences.</h4></div>
                 </li>
         </ul>
 
