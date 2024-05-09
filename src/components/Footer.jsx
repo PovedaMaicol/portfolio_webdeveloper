@@ -35,7 +35,7 @@ placeholder={t("footer.message")}></textarea>
     <h3 className="contacts-subtitles">stivsal12@gmail.com</h3>
 </li>
 <li className="contacts-list"><i className='bx bx-map'></i>
-    <h3 className="contacts-subtitles">Barbosa, Santander</h3>
+    <h3 className="contacts-subtitles">Colombia</h3>
 </li>
 
 </ul>
