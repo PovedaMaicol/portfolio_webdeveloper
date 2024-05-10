@@ -38,7 +38,7 @@ const Inicio = () => {
       }
     
       typed = new Typed(el.current, {
-        strings: [t("home.im"), t("home.dev")],
+        strings: [t("home.im"), t("home.dev"), 'Full-Stack'],
         typeSpeed: 180,
         backSpeed: 80,
         loop: true
@@ -132,7 +132,7 @@ const Inicio = () => {
         </div>
 
 <div className='enlaces'>
-<a>{t("home.web-developer")}<i className='bx bx-download' ></i></a>
+<a href='./CV-Maicol Salazar.pdf' download>{' '}{t("home.web-developer")}<i className='bx bx-download' ></i></a>
 <a href='https://www.behance.net/maicolvillami' target='_blank'>{t("home.web-designer")}<i className='bx bx-code' ></i></a>
 </div>
        

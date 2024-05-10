@@ -7,9 +7,8 @@ import Inicio from './components/Inicio'
 import Portfolio from './components/Portfolio'
 import Skills from './components/Skills'
 // import MoreProyects from './components/MoreProyects'
-import ProyectsPage from './pages/ProyectsPage'
-import HomePage from './pages/HomePage'
-// import { HashRouter, Routes, Route } from 
+
+
 
 function App() {
 
@@ -18,13 +17,9 @@ const router = 'react-router-dom';
   return (
   
        <div className='container_principal'>
-      <Routes>
-      <Route path='/' element={<HomePage/>} />
-      <Route path='/projects' element={<ProyectsPage/>} />
-      </Routes>
+   
 
-
-    {/* <HeaderNav/>
+     <HeaderNav/>
     <Inicio/>
     <br/>
     <br/>
@@ -37,7 +32,7 @@ const router = 'react-router-dom';
      <Habilities/>
      <br/>
      <br/>
-     <Footer/> */}
+     <Footer/> 
 
    
     </div>

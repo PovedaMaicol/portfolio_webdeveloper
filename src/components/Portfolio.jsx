@@ -9,10 +9,14 @@ import { useState } from 'react';
 const Portfolio = ( props ) => {
 
   const [isViewMore, setIsViewMore] = useState(false);
+  const [isMostrarMas, serIsMostrarMas] = useState(true);
   const handleView = () => {
     setIsViewMore(!isViewMore)
+    serIsMostrarMas(!isMostrarMas)
     console.log('hola')
   }
+
+ 
 
 
   const [t, i18n] = useTranslation("global");
@@ -151,15 +155,25 @@ li4='REACT'
     li3='axios'
     li4='React'
     />
-    <CardPortfolio/>  
-    <CardPortfolio/>
+    <CardPortfolio
+    project_name='Dinamic fragances'
+    project_description='proyecto'
+    url='https://deluxe-smakager-332095.netlify.app/'
+    urg='https://github.com/PovedaMaicol/Dinamic'
+    img_port='/img/dinamic.png'
+    li1='jQuery'
+    li2='PHP'
+    li3='JavaScript'
+    li4='HTML/CSS'
+    />  
+    
   
   </section>
   )
 
 }
 
-     <a onClick={handleView}>Ver mas</a>
+     <a className='more' onClick={handleView}>{isMostrarMas ? 'ver mas' : 'ver menos'}</a>
     </div>
   )
 }

@@ -108,9 +108,16 @@ margin: 0 auto;
 
 .footer-item {
     list-style: none;
+    transform: scale(1);
+}
+.footer-item:hover {
+    transform: scale(1.2);
 }
 .footer-item a {
     color: inherit;
+}
+.footer-item a:hover {
+    color: #49C293;
 }
 .contacts-list {
     display: flex;

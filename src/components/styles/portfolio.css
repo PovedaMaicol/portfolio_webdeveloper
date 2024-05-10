@@ -16,6 +16,14 @@
     font-size:x-small;
 }
 
+.more {
+    cursor: pointer;
+    list-style: none;
+    color: #49c29486;
+}
+.more:hover {
+    color: white;
+}
 
 img {
    

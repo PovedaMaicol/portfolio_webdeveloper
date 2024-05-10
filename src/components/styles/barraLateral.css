@@ -13,13 +13,23 @@
 
 .barra-lat li {
     font-size: x-large;
+    transform: scale(1);
     
+}
+
+.barra-lat li:hover{
+    transform: scale(1.2);
 }
 .barra-lat li a {
     color: inherit;
     
+    
 }
 
+.barra-lat li a:hover {
+    color:#49C293;
+    transform: scale(1.1);
+}
 
 @media only screen and (min-width: 768px) {
     .barra-lat{
