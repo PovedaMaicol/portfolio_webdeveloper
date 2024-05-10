@@ -28,12 +28,19 @@ img {
     .portfolio-grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(auto-fill);
         row-gap: 0.8em;
         column-gap: 1.5em;
+        margin-bottom: 0.8em;
     }
     .portfolio-grid br {
         display: none;
     }
+
+    .more-proyect {
+        /* display: flex; */
+   
+    } 
 }
 
 /* card */

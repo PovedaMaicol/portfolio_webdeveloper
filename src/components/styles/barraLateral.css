@@ -31,3 +31,9 @@
         font-size: xx-large;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Estilos para tablet */
+    /* Puedes agregar aquí tus estilos específicos para tablets */
+  }
+  

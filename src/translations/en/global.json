@@ -22,7 +22,8 @@
         "description2": "You can investigate the characters that reside in various galaxies and know their vital status.",
         "description3": "Simulation of a virtual appliance store with the ability to filter by search.",
         "description4": "Application to consult weather data",
-        "description5": "User registration by name, email and age"
+        "description5": "User registration by name, email and age",
+        "description6":"Explore your destiny with our Fortune Cookie website. Find inspiring predictions and advice with just one click. Discover what the future has in store for you!"
     },
     "habilities": {
         "title": "Skills are important, but not all of them have to be technical",

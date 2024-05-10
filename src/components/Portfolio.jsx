@@ -2,10 +2,19 @@ import React from 'react'
 import './styles/portfolio.css'
 import CardPortfolio from './CardPortfolio'
 import { useTranslation } from "react-i18next";
+import { useState } from 'react';
 
 
 
 const Portfolio = ( props ) => {
+
+  const [isViewMore, setIsViewMore] = useState(false);
+  const handleView = () => {
+    setIsViewMore(!isViewMore)
+    console.log('hola')
+  }
+
+
   const [t, i18n] = useTranslation("global");
   return (
     <div className='portfolio-container container'>
@@ -88,8 +97,69 @@ li4='REACT'
 
 
 
+
+
 </div>
-     <a>Ver mas</a>
+
+{
+
+  isViewMore && (
+    <section className='more-proyect portfolio-grid'>
+    <CardPortfolio
+    project_name='Portfolio'
+    project_description='portafolio web desarrollado con HTML y CSS'
+    url='https://web-developer-portflio.netlify.app/'
+    urg='https://github.com/PovedaMaicol/portafolio'
+    img_port='/img/portfolio.png'
+    li1='HTML'
+    li2='CSS'
+    li3='boxicons'
+    li4='bootstrap'
+    />
+    <CardPortfolio
+    project_name='Counter'
+    project_description='contador de clicks con useState'
+    url='https://gorgeous-tiramisu-c6374b.netlify.app/'
+    urg='https://github.com/PovedaMaicol/ContadorReact'
+    img_port='/img/counter.png'
+    li1='CSS'
+    li2='useState'
+    li3='React'
+    li4='HTML'
+    />  
+
+    <CardPortfolio
+    project_name='User authentication'
+    project_description='aplicacion de verificacion y registro de usuario'
+    url='https://cheery-pithivier-d9237d.netlify.app/#/login'
+    urg='https://github.com/PovedaMaicol/Autenticaci-n'
+    img_port='/img/autenticacion.png'
+    li1='sequelize'
+    li2='express'
+    li3='jsonwebtoken'
+    li4='nodemailer'
+    />
+
+    <CardPortfolio
+    project_name='Countries app'
+    project_description='despliegue dinamico de paises'
+    url='https://desplieguedinamico.netlify.app/'
+    urg='https://github.com/PovedaMaicol/CountriesDespliege'
+    img_port='/img/countries.png'
+    li1='hooks'
+    li2='useState'
+    li3='axios'
+    li4='React'
+    />
+    <CardPortfolio/>  
+    <CardPortfolio/>
+  
+  </section>
+  )
+
+}
+
+     <a onClick={handleView}>Ver mas</a>
     </div>
   )
 }

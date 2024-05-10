@@ -21,7 +21,8 @@
         "description2": "Puedes investigar los personajes que residen en diversas galaxias y conocer su estado vital.",
         "description3": "Simulación de una tienda virtual de electrodomésticos con capacidad para filtrar mediante búsqueda.",
         "description4": "Aplicación para consultar datos climatológicos",
-        "description5": "Registro de usuario por nombre, correo electrónico y edad"
+        "description5": "Registro de usuario por nombre, correo electrónico y edad",
+        "description6": "Explora tu destino con nuestra web de la Galleta de la Fortuna. Encuentra predicciones y consejos inspiradores con solo un clic. ¡Descubre lo que el futuro tiene para ti!"
     },
     "habilities": {
         "title": "Las habilidades son importantes, pero no todas tienen que ser técnicas",
