@@ -9,6 +9,7 @@
     "home": {
         "hello": "Hola!",
         "im": "Soy Maicol",
+        "dev": "Desarrollador",
         "text": "Soy desarrollador web junior, soy de Colombia, tengo 23 años y trabajo como desarrollador Front-end y Back-end. Me gusta mucho diseñar y maquetar antes de pasar al código, pero la verdad es que disfruto cada parte del proceso.",
         "web-developer": "Desarrollador Web",
         "web-designer" : "Diseñador Web"
@@ -22,7 +23,20 @@
         "description3": "Simulación de una tienda virtual de electrodomésticos con capacidad para filtrar mediante búsqueda.",
         "description4": "Aplicación para consultar datos climatológicos",
         "description5": "Registro de usuario por nombre, correo electrónico y edad",
-        "description6": "Explora tu destino con nuestra web de la Galleta de la Fortuna. Encuentra predicciones y consejos inspiradores con solo un clic. ¡Descubre lo que el futuro tiene para ti!"
+        "description6": "Explora tu destino con nuestra web de la Galleta de la Fortuna. Encuentra predicciones y consejos inspiradores con solo un clic. ¡Descubre lo que el futuro tiene para ti!",
+        "description7": "Portafolio web desarrollado con HTML y CSS",
+        "description8": "Contador de clics usando useState",
+        "description9":"¡Aplicación web full stack simplifica la gestión de usuarios y contraseñas! Registra, valida y cambia contraseñas de forma segura y eficiente. Una solución completa para la gestión de identidades en línea.",
+        "description10": "Descubre datos de países de forma dinámica. Filtra por idioma y accede a información clave como población, capital y continente. ¡Explora el mundo de manera fácil y rápida!",
+
+
+        "title4": "Aplicación meteorológica",
+        "title5": "Registro de usuarios",
+        "title6": "Galleta de la fortuna",
+        "title7": "Portafolio",
+        "title8": "Contador de clics",
+        "title9": "Autenticación de usuario",
+        "title10": "Aplicación de países"
     },
     "habilities": {
         "title": "Las habilidades son importantes, pero no todas tienen que ser técnicas",
@@ -30,7 +44,12 @@
         "problem-res": "Resolucion de problemas",
         "teamwork": "Trabajo en equipo",
         "creativity": "Creatividad",
-        "empathy": "Empatía"
+        "empathy": "Empatía",
+
+        "reverse1":"Eficiencia, calidad y aprendizaje constante, beneficiando la satisfacción del cliente y la reputación profesional.",
+        "reverse2":"Colaboración efectiva, comunicación fluida y creación de productos de calidad.",
+        "reverse3":"Optimiza la estética, soluciona problemas y mejora la experiencia del usuario",
+        "reverse4":"Comprender las necesidades de los usuarios y diseñar experiencias más satisfactorias y accesibles"
     },
     "footer": {
         "contactme": "Contáctame",

@@ -16,25 +16,46 @@ const body = document.querySelector('body');
 
 const Inicio = () => {
     const el = React.useRef(null);
+    const [t, i18n] = useTranslation("global");
+
+    // cambia el icono
     const [isStarred, setIsStarred] = useState(true);
     const handleIcon = () => {
       setIsStarred(!isStarred)
     };
+
+    // cambia el typed
+    const [typedInstance, setTypedInstance] = useState(null);
+  
    
   
     React.useEffect(() => {
-      
-    
-      const typed = new Typed(el.current, {
-        strings: [`I'm Maicol✌️`],
-        typeSpeed: 180,
-      });
-      return () => {
-        typed.destroy();
-      };
-    }, []);
 
-    const [t, i18n] = useTranslation("global");
+      let typed;
+
+      if(typedInstance) {
+        typedInstance.destroy();
+      }
+    
+      typed = new Typed(el.current, {
+        strings: [t("home.im"), t("home.dev")],
+        typeSpeed: 180,
+        backSpeed: 80,
+        loop: true
+    
+      });
+
+      setTypedInstance(typed);
+
+      return () => {
+        if(typed){
+          typed.destroy();
+      
+        }
+      };
+    }, [i18n.language]);
+  
+    
 
 
     
@@ -51,11 +72,14 @@ const Inicio = () => {
   
     const handleLanguaje = () => {
       i18n.changeLanguage("es")
+   
+
   
     }
   
     const handleLanguajeEn = () => {
       i18n.changeLanguage("en")
+    
     }
   
   

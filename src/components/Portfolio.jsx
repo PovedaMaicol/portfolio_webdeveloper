@@ -60,7 +60,7 @@ li4='Redux'
 />
 
 <CardPortfolio
-project_name='Weather App'
+project_name={t("projects.title4")}
 project_description={t("projects.description4")}
 url='https://courageous-horse-78e509.netlify.app/'
 urg='https://github.com/PovedaMaicol/Weather-App'
@@ -72,7 +72,7 @@ li4='React'
 />
 
 <CardPortfolio 
-project_name='Users Registration'
+project_name={t("projects.title5")}
 project_description={t("projects.description5")}
 url='https://leafy-alpaca-3ed326.netlify.app/'
 urg='https://github.com/PovedaMaicol/Users-React'
@@ -84,7 +84,7 @@ li4='HTTP'
 />
 
 <CardPortfolio
-project_name='Fortune cookie'
+project_name={t("projects.title6")}
 project_description={t("projects.description6")}
 url='https://effulgent-babka-78800d.netlify.app/'
 urg='https://github.com/PovedaMaicol/React--Galleta-de-la-fortuna'
@@ -106,8 +106,8 @@ li4='REACT'
   isViewMore && (
     <section className='more-proyect portfolio-grid'>
     <CardPortfolio
-    project_name='Portfolio'
-    project_description='portafolio web desarrollado con HTML y CSS'
+    project_name={t("projects.title7")}
+    project_description={t("projects.description7")}
     url='https://web-developer-portflio.netlify.app/'
     urg='https://github.com/PovedaMaicol/portafolio'
     img_port='/img/portfolio.png'
@@ -117,8 +117,8 @@ li4='REACT'
     li4='bootstrap'
     />
     <CardPortfolio
-    project_name='Counter'
-    project_description='contador de clicks con useState'
+    project_name={t("projects.title8")}
+    project_description={t("projects.description8")}
     url='https://gorgeous-tiramisu-c6374b.netlify.app/'
     urg='https://github.com/PovedaMaicol/ContadorReact'
     img_port='/img/counter.png'
@@ -129,8 +129,8 @@ li4='REACT'
     />  
 
     <CardPortfolio
-    project_name='User authentication'
-    project_description='aplicacion de verificacion y registro de usuario'
+    project_name={t("projects.title9")}
+    project_description={t("projects.description9")}
     url='https://cheery-pithivier-d9237d.netlify.app/#/login'
     urg='https://github.com/PovedaMaicol/Autenticaci-n'
     img_port='/img/autenticacion.png'
@@ -141,8 +141,8 @@ li4='REACT'
     />
 
     <CardPortfolio
-    project_name='Countries app'
-    project_description='despliegue dinamico de paises'
+    project_name={t("projects.title10")}
+    project_description={t("projects.description10")}
     url='https://desplieguedinamico.netlify.app/'
     urg='https://github.com/PovedaMaicol/CountriesDespliege'
     img_port='/img/countries.png'

@@ -9,6 +9,7 @@
     "home": {
         "hello": "Hello!",
         "im": "I'm Maicol",
+        "dev": "Developer",
         "text": "I am junior developer web, I am from Colombia, I am 23 years old and I work as a Frontend and Backend developer. I really like to design and layout before moving on to code but the truth is i enjoy every part of the process.",
         "web-developer": "Web Developer",
         "web-designer" : "Web Designer"
@@ -23,7 +24,19 @@
         "description3": "Simulation of a virtual appliance store with the ability to filter by search.",
         "description4": "Application to consult weather data",
         "description5": "User registration by name, email and age",
-        "description6":"Explore your destiny with our Fortune Cookie website. Find inspiring predictions and advice with just one click. Discover what the future has in store for you!"
+        "description6":"Explore your destiny with our Fortune Cookie website. Find inspiring predictions and advice with just one click. Discover what the future has in store for you!",
+        "description7":"Web portfolio developed with HTML and CSS",
+        "description8":"Click counter using useState",
+        "description9": "Full stack web application simplifies user and password management! Register, validate and change passwords securely and efficiently. A complete solution for online identity management.",
+        "description10": "Discover country data dynamically. Filter by language and access key information such as population, capital and continent. Explore the world quickly and easily!",
+
+        "title4":"Weather app",
+        "title5":"User Registration",
+        "title6": "Fortune cookie",
+        "title7": "Portfolio",
+        "title8": "Click counter",
+        "title9": "User authentication",
+        "title10": "Countries app"
     },
     "habilities": {
         "title": "Skills are important, but not all of them have to be technical",
@@ -31,7 +44,13 @@
         "problem-res": "Problem resolution",
         "teamwork": "Teamwork",
         "creativity": "Creativity",
-        "empathy": "Empathy"
+        "empathy": "Empathy", 
+
+
+        "reverse1":"Efficiency, quality and constant learning, benefiting customer satisfaction and professional reputation.",
+        "reverse2":"Effective collaboration, fluid communication and creation of quality products.",
+        "reverse3":"Optimizes aesthetics, solves problems and improves the user experience",
+        "reverse4":"Understand user needs and design more satisfying and accessible experiences."
     },
     "footer": {
         "contactme": "Contact me",

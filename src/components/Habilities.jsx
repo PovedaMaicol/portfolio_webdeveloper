@@ -26,25 +26,25 @@ const Habilities = () => {
 
             <li>
                 <div className='front'><i className="bx bx-cog"></i><h4>{t("habilities.problem-res")}</h4></div>
-                <div className='back'><h4>efficiency, quality and constant learning, benefiting customer satisfaction and professional reputation.</h4></div>
+                <div className='back'><h4>{t("habilities.reverse1")}</h4></div>
             </li>
 
             <li>
                 <div className='front'><i className="bx bx-group"></i><h4>{t("habilities.teamwork")}</h4></div>
-                <div className='back'><h4>effective collaboration, fluid communication and creation of quality products.</h4></div>
+                <div className='back'><h4>{t("habilities.reverse2")}</h4></div>
             </li>
 
 
 
             <li>
                 <div className='front'><i className="bx bx-landscape"></i><h4>{t("habilities.creativity")}</h4></div>
-                <div className='back'><h4>Optimizes aesthetics, solves problems and improves the user experience.</h4></div>
+                <div className='back'><h4>{t("habilities.reverse3")}</h4></div>
             </li>
 
             <li>
                 <div className='front'><i className="bx bx-donate-heart"></i><h4>{t("habilities.empathy")}</h4>
                 </div>
-                <div className='back'><h4>understand user needs and design more satisfying and accessible experiences.</h4></div>
+                <div className='back'><h4>{t("habilities.reverse4")}</h4></div>
                 </li>
         </ul>
 
