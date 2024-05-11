@@ -58,7 +58,8 @@
         "name": "Name",
         "email": "Email",
         "message": "Message",
-        "send": "Send"
+        "send": "Send",
+        "alert": "Message sent succesfully"
 
 
         

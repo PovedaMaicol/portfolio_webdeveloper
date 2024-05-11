@@ -12,6 +12,7 @@ flex-direction: column;
 }
 
 .form {
+    position: relative;
     width: 100%;
     margin: 0 auto;
     height: 50vh;
@@ -59,7 +60,7 @@ flex-direction: column;
     height: 5vh;
     border-radius: 1vh;
     border: none;
-   
+    color: black;
     width: 80%;
 
 }
@@ -74,6 +75,11 @@ flex-direction: column;
     background-color: #161a30;
     border-radius: 1vh;
     cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+margin: 0;
+display: flex;
 }
 
 .footer-contacts {
@@ -133,6 +139,36 @@ margin: 0 auto;
 
 }
 
+.msjSend {
+ width: 60%;
+ height: 15vh;
+    position: absolute;
+    background-color:  #49c294;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    border-radius: inherit;
+}
+
+.msjSend i {
+    font-size: 30px;
+}
+
+.msjSend h2 {
+    font-size:small;
+}
+.visible {
+    display: flex;
+}
+.hidden {
+    display: none;
+}
 
 @media only screen and (min-width: 768px) {
   

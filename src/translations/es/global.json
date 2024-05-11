@@ -57,7 +57,8 @@
         "name": "Nombre",
         "email": "Correo electronico",
         "message": "Mensaje",
-        "send": "Enviar"
+        "send": "Enviar",
+        "alert": "Mensaje enviado con éxito"
        
     }
 }
