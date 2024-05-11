@@ -18,17 +18,17 @@
     display: flex;
     position: fixed;
     top: 64px;
-    left: -100%;
-    background-color: #31304d ;
-    width: 100%;
-    height: calc(100vh - 64px);
+    right: -100%;
+    background-color: #31304d;
+    width: 50%;
+    height: calc(40vh - 64px);
     padding: 30px 40px;
     transition: left .5s;
     z-index: 3;
 }
 
 .show-menu {
-    left: 0;
+    right: 0;
   
 }
 .navbar {
@@ -105,6 +105,7 @@ h2 span {
 
 }
 .menu-item a {
+   
     text-decoration: none;
     color: inherit;
 }
@@ -116,7 +117,7 @@ border-radius: 10%;
     border-right: 2px solid;
     color: #49c29486;
     font-weight: 500;
-    
+
 }
 .menu-list button {
     width: 50%;

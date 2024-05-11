@@ -166,6 +166,18 @@ li4='REACT'
     li3='JavaScript'
     li4='HTML/CSS'
     />  
+
+    <CardPortfolio 
+    project_name='Freecodecamp Calculator'
+    project_description='solve mathematical operations'
+    url='https://calculatorfreecc.netlify.app/'
+    urg='https://github.com/PovedaMaicol/CalculadoraReactFcc'
+    img_port='/img/calculator.png'
+    li1='mathjs'
+    li2='useState'
+    li3='React'
+    li4='CSS'
+    />
     
   
   </section>
