@@ -281,7 +281,7 @@ border: none;
 
     .cont-barra {
       position: fixed;
-        right: 170px;
+    margin-right: 50px;
         top: 130px;
       
         
