@@ -72,8 +72,8 @@ position: relative;
 
 
 div .front {
-    background-color: #31304d;
-   
+    background-color:#31304d;
+    color: white;
     transform: perspective(500px) rotateY(0deg);
 }
 

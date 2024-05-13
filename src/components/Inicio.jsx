@@ -130,7 +130,7 @@ const Inicio = () => {
       
         </div>
         </div>
-
+<br/>
 <div className='enlaces'>
 <a href='./CV-Maicol Salazar.pdf' download>{' '}{t("home.web-developer")}<i className='bx bx-download' ></i></a>
 <a href='https://www.behance.net/maicolvillami' target='_blank'>{t("home.web-designer")}<i className='bx bx-code' ></i></a>

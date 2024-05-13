@@ -19,10 +19,10 @@
 .more {
     cursor: pointer;
     list-style: none;
-    color: #49c29486;
+    color: #22d69186;
 }
 .more:hover {
-    color: white;
+    color: #49c29486;
 }
 
 img {

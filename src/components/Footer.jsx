@@ -13,25 +13,38 @@ const Footer = () => {
 
 
   const sendEmail = (e) => {
-    e.preventDefault();
 
-    emailjs
-      .sendForm('service_xzul74k', 'template_d8hakac', form.current, {
-        publicKey: 'd-nqlcfP9XcmllwWV',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
+    // para que se ejecute solo si los campos del form estan llenos 
+    const userName = form.current.user_name.value.trim();
+    const userEmail = form.current.user_email.value.trim();
+    const message = form.current.message.value.trim();
 
-      setIsShowMessage(true);
-      setTimeout(() => {
-        setIsShowMessage(false);
-      }, 3000);
+    if (userName && userEmail && message) {
+    
+      e.preventDefault();
+
+      emailjs
+        .sendForm('service_xzul74k', 'template_d8hakac', form.current, {
+          publicKey: 'd-nqlcfP9XcmllwWV',
+        })
+        .then(
+          () => {
+            console.log('SUCCESS!');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+  
+        setIsShowMessage(true);
+        setTimeout(() => {
+          setIsShowMessage(false);
+        }, 3000);
+  
+      } else {
+        e.preventDefault();
+        alert('Por favor llene todos los campos')
+      }
   };
 
 

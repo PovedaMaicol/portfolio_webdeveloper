@@ -33,6 +33,7 @@ color: rgba(255, 255, 0, 0.9);
 }
 .contenedor-title p {
     font-weight: 300;
+    margin: 0;
 }
 
 .cont-barra {
@@ -90,7 +91,7 @@ color: rgba(255, 255, 0, 0.9);
 color: inherit;
     cursor: pointer;
     height: 4vh;
-    background-color:#49C293;
+    background-color:#49c2939c;;
   
     align-items: center;
     border-radius: 1vh;
@@ -229,23 +230,22 @@ border: none;
     .container_todo {
    
         display: flex;
-      height: auto;
-        justify-content:first baseline;
+        justify-content: space-between;
+        height: auto;
+        align-items: flex-end;
     }
     
  
 
     .img-container {
-width: 300px;
-height: 300px;
-align-items: center;
-display: flex;
-justify-content: center;
-border-radius: 10px;
-padding-top: 6vh;
-     
-        /* margin-left: 5%; */
-        
+        width: 300px;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        padding-top: 6vh;
+        margin: 0;
     }
 
     .img-container img {
