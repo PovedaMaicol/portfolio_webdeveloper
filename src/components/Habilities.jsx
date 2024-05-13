@@ -65,25 +65,29 @@ const Habilities = () => {
 
 
 <div className="carousel-inner">
+
+  
     <div className="carousel-item active" data-bs-interval="10000">
-        <img src="/img/programacion.jpg" className="d-block w-100" alt="certificado platzi"></img>
-
-
-
+        <img src="/img/frontend.png" className="d-block w-100" alt="certificado Academlo"></img>
     </div>
+
+    
+    <div className="carousel-item">
+        <img src="/img/programacion3.png" className="d-block w-100" alt="certificado Academlo"></img>
+    </div>
+
+
     <div className="carousel-item" data-bs-interval="2000">
-        <img src="/img/programacion1.png" className="d-block w-100" alt="certificado egg"></img>
-
+        <img src="/img/programacion.jpg" className="d-block w-100" alt="certificado platzi"></img>
     </div>
+
+    
+
+
     <div className="carousel-item">
         <img src="/img/programacion2.jpg" className="d-block w-100" alt="certificado linkedin"></img>
-
     </div>
 
-    <div className="carousel-item">
-        <img src="/img/programacion3.png" className="d-block w-100" alt="certificado linkedin"></img>
-
-    </div>
 </div>
 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
     data-bs-slide="prev">
