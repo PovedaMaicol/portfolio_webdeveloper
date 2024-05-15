@@ -179,6 +179,19 @@ li4='REACT'
     li4='CSS'
     />
     
+
+    <CardPortfolio 
+    project_name='Freecodecamp palindromo'
+    project_description='identify words that are palindromas'
+    url='https://palindromofcc.netlify.app/'
+    urg='https://github.com/PovedaMaicol/wordPalindrome'
+    img_port='/img/palindrome.png'
+    li1='HTML'
+    li2='CSS'
+    li3='JavaScript'
+    li4='DOM'
+    />
+  
   
   </section>
   )
