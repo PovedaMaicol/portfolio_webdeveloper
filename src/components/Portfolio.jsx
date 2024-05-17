@@ -51,17 +51,6 @@ li4='CSS'
 />
 <br/>
 
-<CardPortfolio
-project_name='E-commerce'
-project_description={t("projects.description3")}
-url='https://tourmaline-fudge-f10320.netlify.app'
-urg='https://github.com/PovedaMaicol/e-comerce'
-img_port='/img/ecomerce.png'
-li1='Provider'
-li2='HashRouter'
-li3='JavaScript'
-li4='Redux'
-/>
 
 <CardPortfolio
 project_name={t("projects.title4")}
@@ -99,6 +88,18 @@ li3='CSS'
 li4='REACT'
 />
 
+<CardPortfolio
+    project_name={t("projects.title9")}
+    project_description={t("projects.description9")}
+    url='https://cheery-pithivier-d9237d.netlify.app/#/login'
+    urg='https://github.com/PovedaMaicol/Autenticaci-n'
+    img_port='/img/autenticacion.png'
+    li1='sequelize'
+    li2='express'
+    li3='jsonwebtoken'
+    li4='nodemailer'
+    />
+
 
 
 
@@ -131,18 +132,6 @@ li4='REACT'
     li3='React'
     li4='HTML'
     />  
-
-    <CardPortfolio
-    project_name={t("projects.title9")}
-    project_description={t("projects.description9")}
-    url='https://cheery-pithivier-d9237d.netlify.app/#/login'
-    urg='https://github.com/PovedaMaicol/Autenticaci-n'
-    img_port='/img/autenticacion.png'
-    li1='sequelize'
-    li2='express'
-    li3='jsonwebtoken'
-    li4='nodemailer'
-    />
 
     <CardPortfolio
     project_name={t("projects.title10")}
@@ -191,6 +180,18 @@ li4='REACT'
     li3='JavaScript'
     li4='DOM'
     />
+
+    {/* <CardPortfolio
+project_name='E-commerce'
+project_description={t("projects.description3")}
+url='https://tourmaline-fudge-f10320.netlify.app'
+urg='https://github.com/PovedaMaicol/e-comerce'
+img_port='/img/ecomerce.png'
+li1='Provider'
+li2='HashRouter'
+li3='JavaScript'
+li4='Redux'
+/> */}
   
   
   </section>
