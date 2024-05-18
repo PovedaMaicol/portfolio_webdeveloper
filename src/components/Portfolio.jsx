@@ -145,8 +145,8 @@ li4='REACT'
     li4='React'
     />
     <CardPortfolio
-    project_name='Dinamic fragances'
-    project_description='proyecto'
+    project_name={t("projects.title11")}
+    project_description={t("projects.description11")}
     url='https://deluxe-smakager-332095.netlify.app/'
     urg='https://github.com/PovedaMaicol/Dinamic'
     img_port='/img/dinamic.png'
@@ -157,8 +157,8 @@ li4='REACT'
     />  
 
     <CardPortfolio 
-    project_name='Freecodecamp Calculator'
-    project_description='solve mathematical operations'
+    project_name={t("projects.title12")}
+    project_description={t("projects.description12")}
     url='https://calculatorfreecc.netlify.app/'
     urg='https://github.com/PovedaMaicol/CalculadoraReactFcc'
     img_port='/img/calculator.png'
@@ -170,8 +170,8 @@ li4='REACT'
     
 
     <CardPortfolio 
-    project_name='Freecodecamp palindromo'
-    project_description='identify words that are palindromas'
+    project_name={t("projects.title13")}
+    project_description={t("projects.description13")}
     url='https://palindromofcc.netlify.app/'
     urg='https://github.com/PovedaMaicol/wordPalindrome'
     img_port='/img/palindrome.png'

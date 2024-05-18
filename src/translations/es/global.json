@@ -28,6 +28,9 @@
         "description8": "Contador de clics usando useState",
         "description9":"¡Aplicación web full stack simplifica la gestión de usuarios y contraseñas! Registra, valida y cambia contraseñas de forma segura y eficiente. Una solución completa para la gestión de identidades en línea.",
         "description10": "Descubre datos de países de forma dinámica. Filtra por idioma y accede a información clave como población, capital y continente. ¡Explora el mundo de manera fácil y rápida!",
+        "description11":"Sitio web desarrollado usando HTML CSS y JavaScript",
+        "description12":"Resolver operaciones matemáticas",
+        "description13":"identificar palabras que son palíndromas",
 
 
         "title4": "Aplicación meteorológica",
@@ -36,7 +39,10 @@
         "title7": "Portafolio",
         "title8": "Contador de clics",
         "title9": "Autenticación de usuario",
-        "title10": "Aplicación de países"
+        "title10": "Aplicación de países",
+        "title11": "Fregancias Dinamic",
+        "title12": "Calculadora Freecodecamp",
+        "title13": "Identificar palindromo"
     },
     "habilities": {
         "title": "Las habilidades son importantes, pero no todas tienen que ser técnicas",
