@@ -26,6 +26,32 @@ const Portfolio = ( props ) => {
         <br/>
 
 <div id="proyects" className='portfolio-grid'>
+
+<CardPortfolio
+project_name='Contacts App'
+project_description={t("projects.description0")}
+url='https://backendphone.onrender.com/#/'
+urg='https://github.com/PovedaMaicol/FullStackOpen'
+img_port='/img/contacts.png'
+li1='MongoDB'
+li2='Node.js'
+li3='Express.js'
+li4='React'
+
+/>
+
+<CardPortfolio
+    project_name={t("projects.title9")}
+    project_description={t("projects.description9")}
+    url='https://cheery-pithivier-d9237d.netlify.app/#/login'
+    urg='https://github.com/PovedaMaicol/Autenticaci-n'
+    img_port='/img/autenticacion.png'
+    li1='sequelize'
+    li2='express'
+    li3='jsonwebtoken'
+    li4='nodemailer'
+    />
+
 <CardPortfolio 
 project_name='Pokedex'
 project_description={t("projects.description1")}
@@ -37,7 +63,7 @@ li2='Axios'
 li3='JavaScript'
 li4='React'
 />
-<br/>
+
 <CardPortfolio
 project_name='Rick and Morty'
 project_description={t("projects.description2")}
@@ -76,7 +102,13 @@ li3='Node.js'
 li4='HTTP'
 />
 
-<CardPortfolio
+</div>
+
+{
+
+  isViewMore && (
+    <section className='more-proyect portfolio-grid'>
+    <CardPortfolio
 project_name={t("projects.title6")}
 project_description={t("projects.description6")}
 url='https://effulgent-babka-78800d.netlify.app/'
@@ -88,28 +120,6 @@ li3='CSS'
 li4='REACT'
 />
 
-<CardPortfolio
-    project_name={t("projects.title9")}
-    project_description={t("projects.description9")}
-    url='https://cheery-pithivier-d9237d.netlify.app/#/login'
-    urg='https://github.com/PovedaMaicol/Autenticaci-n'
-    img_port='/img/autenticacion.png'
-    li1='sequelize'
-    li2='express'
-    li3='jsonwebtoken'
-    li4='nodemailer'
-    />
-
-
-
-
-
-</div>
-
-{
-
-  isViewMore && (
-    <section className='more-proyect portfolio-grid'>
     <CardPortfolio
     project_name={t("projects.title7")}
     project_description={t("projects.description7")}

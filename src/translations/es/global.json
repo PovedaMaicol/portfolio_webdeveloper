@@ -18,6 +18,7 @@
         "web-design": "Diseñador web / Desarrollador Front-end / Desarrollador Back-end",
         "code": "Codigo",
         "project": "Proyecto",
+        "description0":"Registro y eliminación de contactos",
         "description1":"Un sitio web donde los aficionados de Pokémon pueden encontrar información sobre sus personajes favoritos.",
         "description2": "Puedes investigar los personajes que residen en diversas galaxias y conocer su estado vital.",
         "description3": "Simulación de una tienda virtual de electrodomésticos con capacidad para filtrar mediante búsqueda.",
@@ -32,7 +33,7 @@
         "description12":"Resolver operaciones matemáticas",
         "description13":"identificar palabras que son palíndromas",
 
-
+        "title0":"Aplicación de contactos", 
         "title4": "Aplicación meteorológica",
         "title5": "Registro de usuarios",
         "title6": "Galleta de la fortuna",

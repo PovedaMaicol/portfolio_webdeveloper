@@ -19,6 +19,7 @@
         "web-design": "Web Design / Front-end Developer / Back-end Developer",
         "code": "Code",
         "project": "Project",
+        "description0":"Registration and deletion of contacts",
         "description1": "A website where Pokémon fans can find information about their favorite characters.",
         "description2": "You can investigate the characters that reside in various galaxies and know their vital status.",
         "description3": "Simulation of a virtual appliance store with the ability to filter by search.",
@@ -32,7 +33,8 @@
         "description11":"Website developed using HTML CSS and JavaScript",
         "description12":"Solve mathematical operations",
         "description13":"Identify words that are palindromas",
-
+        
+        "title0":"contacts app",
         "title4":"Weather app",
         "title5":"User Registration",
         "title6": "Fortune cookie",
