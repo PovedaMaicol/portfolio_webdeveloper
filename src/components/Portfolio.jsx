@@ -28,6 +28,18 @@ const Portfolio = ( props ) => {
 <div id="proyects" className='portfolio-grid'>
 
 <CardPortfolio
+project_name={t("projects.title14")}
+project_description={t("projects.description14")}
+url='https://blogersapp.netlify.app/'
+urg='https://github.com/PovedaMaicol/FullStackOpen/tree/main/part4-5'
+img_port='/img/BlogsApp.png'
+li1='React Query'
+li2='React Router'
+li3='JWT'
+li4='Bcrypt'
+/>
+
+<CardPortfolio
 project_name='Contacts App'
 project_description={t("projects.description0")}
 url='https://backendphone.onrender.com/#/'
@@ -46,10 +58,10 @@ li4='React'
     url='https://cheery-pithivier-d9237d.netlify.app/#/login'
     urg='https://github.com/PovedaMaicol/Autenticaci-n'
     img_port='/img/autenticacion.png'
-    li1='sequelize'
-    li2='express'
-    li3='jsonwebtoken'
-    li4='nodemailer'
+    li1='Sequelize'
+    li2='Express'
+    li3='JWT'
+    li4='Nodemailer'
     />
 
 <CardPortfolio 
@@ -90,6 +102,14 @@ li3='useEffect'
 li4='React'
 />
 
+
+</div>
+
+{
+
+  isViewMore && (
+    <section className='more-proyect portfolio-grid'>
+
 <CardPortfolio 
 project_name={t("projects.title5")}
 project_description={t("projects.description5")}
@@ -102,12 +122,7 @@ li3='Node.js'
 li4='HTTP'
 />
 
-</div>
 
-{
-
-  isViewMore && (
-    <section className='more-proyect portfolio-grid'>
     <CardPortfolio
 project_name={t("projects.title6")}
 project_description={t("projects.description6")}

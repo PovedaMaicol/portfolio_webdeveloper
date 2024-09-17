@@ -33,6 +33,7 @@
         "description11":"Website developed using HTML CSS and JavaScript",
         "description12":"Solve mathematical operations",
         "description13":"Identify words that are palindromas",
+        "description14": "User registration and blog creation.",
         
         "title0":"contacts app",
         "title4":"Weather app",
@@ -44,7 +45,8 @@
         "title10": "Countries app",
         "title11": "Dinamic fragrances ",
         "title12": "Freecodecamp Calculator",
-        "title13": "Palindrome identifier"
+        "title13": "Palindrome identifier",
+        "title14": "Blog App"
 
     },
     "habilities": {

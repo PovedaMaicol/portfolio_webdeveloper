@@ -32,6 +32,7 @@
         "description11":"Sitio web desarrollado usando HTML CSS y JavaScript",
         "description12":"Resolver operaciones matemáticas",
         "description13":"identificar palabras que son palíndromas",
+        "description14":"Registro de usuarios y creación de blog.",
 
         "title0":"Aplicación de contactos", 
         "title4": "Aplicación meteorológica",
@@ -43,7 +44,8 @@
         "title10": "Aplicación de países",
         "title11": "Fregancias Dinamic",
         "title12": "Calculadora Freecodecamp",
-        "title13": "Identificar palindromo"
+        "title13": "Identificar palindromo",
+        "title14": "Aplicación de Blogs"
     },
     "habilities": {
         "title": "Las habilidades son importantes, pero no todas tienen que ser técnicas",
