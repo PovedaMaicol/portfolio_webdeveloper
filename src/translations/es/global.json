@@ -33,6 +33,7 @@
         "description12":"Resolver operaciones matemáticas",
         "description13":"identificar palabras que son palíndromas",
         "description14":"Registro de usuarios y creación de blog.",
+        "description15":"Aplicación de gestión de libros que permite a los usuarios explorar y filtrar libros por género, recibir actualizaciones en tiempo real de nuevos libros en su género favorito y gestionar su perfil",
 
         "title0":"Aplicación de contactos", 
         "title4": "Aplicación meteorológica",
@@ -45,7 +46,8 @@
         "title11": "Fregancias Dinamic",
         "title12": "Calculadora Freecodecamp",
         "title13": "Identificar palindromo",
-        "title14": "Aplicación de Blogs"
+        "title14": "Aplicación de Blogs",
+        "title15": "Aplicación de Libros"
     },
     "habilities": {
         "title": "Las habilidades son importantes, pero no todas tienen que ser técnicas",

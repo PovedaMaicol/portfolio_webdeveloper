@@ -34,6 +34,7 @@
         "description12":"Solve mathematical operations",
         "description13":"Identify words that are palindromas",
         "description14": "User registration and blog creation.",
+        "description15": "Book management app that allows users to browse and filter books by genre, receive real-time updates on new books in their favorite genre, and manage their profile",
         
         "title0":"contacts app",
         "title4":"Weather app",
@@ -46,7 +47,8 @@
         "title11": "Dinamic fragrances ",
         "title12": "Freecodecamp Calculator",
         "title13": "Palindrome identifier",
-        "title14": "Blog App"
+        "title14": "Blog App",
+        "title15": "Book App"
 
     },
     "habilities": {

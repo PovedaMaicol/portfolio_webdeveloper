@@ -52,17 +52,18 @@ li4='React'
 
 />
 
-<CardPortfolio
-    project_name={t("projects.title9")}
-    project_description={t("projects.description9")}
-    url='https://cheery-pithivier-d9237d.netlify.app/#/login'
-    urg='https://github.com/PovedaMaicol/Autenticaci-n'
-    img_port='/img/autenticacion.png'
-    li1='Sequelize'
-    li2='Express'
-    li3='JWT'
-    li4='Nodemailer'
-    />
+<CardPortfolio 
+project_name={t("projects.title15")}
+project_description={t("projects.description15")}
+url='https://booksappgraph.netlify.app/'
+urg='https://github.com/PovedaMaicol/FullStackOpen/tree/main/part8'
+img_port='/img/booksApp.png'
+li1='GraphQL'
+li2='Apollo'
+li3='Bootstrap'
+li4='MongoDB'
+/>
+
 
 <CardPortfolio 
 project_name='Pokedex'
@@ -121,6 +122,18 @@ li2='Express'
 li3='Node.js'
 li4='HTTP'
 />
+
+<CardPortfolio
+    project_name={t("projects.title9")}
+    project_description={t("projects.description9")}
+    url='https://cheery-pithivier-d9237d.netlify.app/#/login'
+    urg='https://github.com/PovedaMaicol/Autenticaci-n'
+    img_port='/img/autenticacion.png'
+    li1='Sequelize'
+    li2='Express'
+    li3='JWT'
+    li4='Nodemailer'
+    />
 
 
     <CardPortfolio
